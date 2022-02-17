@@ -4,7 +4,7 @@
 void main()
  {
  int a[20],b[30],i,j,k,count,n;
-clrscr();
+
 printf("enter frame length:");
 scanf("%d",&n);
 printf("enter input frame(0's&1's only):");
@@ -37,5 +37,5 @@ j++;
 printf("After stuffing the frame is:");
 for(i=0;i<j;i++)
 printf("%d",b[i]);
-getch();
+
 }
